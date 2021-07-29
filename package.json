@@ -2,9 +2,11 @@
   "name": "twitter-talker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "twitter-talker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "twitter-talker.js",
+    "start": "node ./twitter-talker.js",
+    "develop": "NODE_ENV=develop node twitter-talker.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/CodingJen/twitter-talker/issues"
   },
-  "homepage": "https://github.com/CodingJen/twitter-talker#readme"
+  "homepage": "https://github.com/CodingJen/twitter-talker#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node": "^16.5.0",
+    "node-schedule": "^2.0.0",
+    "twit": "^2.2.11"
+  }
 }
