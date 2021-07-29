@@ -1,0 +1,19 @@
+{
+  "name": "twitter-talker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingJen/twitter-talker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodingJen/twitter-talker/issues"
+  },
+  "homepage": "https://github.com/CodingJen/twitter-talker#readme"
+}
